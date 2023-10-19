@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>TAGs Html</title>
+    </head>
+    <body>
+        <h1><strong>Entendendo Tags HTML</strong></h1>
+        <hr/>
+        <ul>
+            <li><a href="#tags">O que são Tags?</a></li>
+            <li><a href="#atributos">O que são Atributos?</a></li>
+            <li><a href="#tipos">Tipos de Atributos</a></li>
+            <li><a href="#exemplos tags">Algumas tags e suas expecificações</a></li>
+            <li><a href="#exemplos atributos">Atributos das Tags</a></li>
+        </ul>
+        <h2 id="tags"><i><strong>O que são Tags?</strong></i></h2>
+        <p>São códigos de marcação de texto que possuem instruções, as tags são etiquetas, usadas para que o navegador exiba a página de acordo com a formatação definida pelos comandos HTML, elas são usadas para que você deixe palavras e textos do
+            jeito que preferir, estilizando ela! Todas as tags tem um ínicio e um fechamento, e tudo que estiver entre os dois será o conteúdo dela. As tags podem tanto ser fechadas separadamente quanto funcionarem sozinhas <mark><strong>Ex:</strong> "< i>Oi< /i>"< ou < input Oi/></mark>. 
+            Existe também a possibilidade de usar duas tags juntas, por exemplo, você querer que um texto seja em itálico e também em negrito, para fazer isso só é preciso colocar uma ao lado da outra <mark><strong>Ex:</strong> < i>< strong>Tudo bem?< /strong>< /i></mark>.
+        </p>
+        <p>Seguindo nessas diversas regras das tags, há também em algumas delas a necessidade de serem usadas as <i>tags filhas</i>, que são uma tag dentro da outra, "ol" e "ul" por exemplo precisam de uma tag filha para que possa ser colocado os itens desta lista, e 
+        para que funcione da maneira correta é preciso repetir o comando do atributo a cada item da lista.</p>
+        <h2 id="atributos"><i><strong>O que são Atributos?</strong></i></h2>
+        <p>São propriedades que uma tag pode ter, palavras especiais para controlar o comportamento do elemento, cada atributo deve ser escrito dentro de uma tag para que possa funcionar <mark><strong>Ex:</strong> < strong style = "color: pink;">Amor< /strong> Resultado:</mark> <strong style = "color: pink;">Amor</strong> </p>
+        <h2 id="tipos"><i><strong>Tipos de atributos</strong></i></h2>
+        <p>
+            Existem dois tipos de atributos, os <i>Globais</i> e <i>Específicos</i>, os atributos <i>globais</i> são genéricos, usados em quase tudo, já os <i>específicos</i> são atributos que só podem ser usados atuando em uma tag específica
+        </p>
+        <h3 id="exemplos tags"><i><strong>Algumas tags e suas expecificações</strong></i></h3>
+        <ol>
+            <li><strong>"title"</strong> = Adiciona um título</li>
+            <li><strong>"i"</strong> = Deixa o texto selecionado em itálico</li>
+            <li><strong>"strong"</strong> = Transforma em negrito</li>
+            <li><strong>"u"</strong> = Traça uma linha, sublinhando</li>
+            <li><strong>"mark"</strong> = Colore a frase como um marca texto</li>
+            <li><strong>"input"</strong> = Abre um campo de texto</li>
+            <li><strong>"img"</strong> = Adiciona uma imagem selecionada na página</li>
+            <li><strong>"h1-h6"</strong> = É uma TAG como a "title" porém com tamanho, e esses tamanhos vão do h1 ao h6, adicionando assim, subtítulos</li>
+            <li><strong>"p"</strong> = Da ínicio a um parágrafo, textos</li>
+            <li><strong>"blockquote"</strong> = Para fazer citações ou observações</li>
+            <li><strong>"sup"</strong> = Elevado à <mark><strog>Ex:</strog> Dio<sup>me</sup></mark></li>
+            <li><strong>"ol"</strong> = Lista ordenada, usa marcação com números</li>
+            <li><strong>"ul"</strong> = Lista não ordenada, usa marcação com pontos</li>
+            <li><strong>"a"</strong> = Para adicionar um link</li>
+            <li><strong>"hr"</strong> = Traça uma linha, separando a página</li>
+            <li><strong>"small"</strong> = Deixa o texto pequeno</li>
+            <li><strong>"font"</strong> = <i>Serve para escolher tanto a cor da fonte quanto seu tamanho</i><sup>*</sup></li>
+            <li><strong>"del"</strong> = <i>Representa algo que foi excluído, risca a palavra</i><sup>*</sup></li>
+            <li><strong>"abbr"</strong> = <i>Indica uma abreviação ou uma sigla</i><sup>*</sup></li>
+        </ol>
+        <h3 id="exemplos atributos"><i><strong>Atributos das Tags</strong></i></h3>
+        <ol>
+            <h3><strong>Globais:</strong></h3>
+            <li><strong>"id"</strong> = Identifica o elemento que você escrever na frente para que possa modificá-lo</li>
+            <li><strong>"style"</strong> = Coloca o CSS direto no elemento selecionado</li>
+            <li><strong>"class"</strong> = Padroniza o que você quer no estilo que escolher</li>
+            <h3><strong>Específicas:</strong></h3>
+            <li><strong>"type"</strong> = Específico da TAG "input", diz o conteúdo usado na TAG  <mark><strong>Ex:</strong> "number" ou "text"</mark></li>
+            <li><strong>"src"</strong> = Específico da TAG "img" trás um endereço de imagem para que ela possa aparecer</li>
+            <li><strong>"width"</strong> = Para definir a largura da imagem</li>
+            <li><strong>"href"</strong> = Adiciona o link da TAG "a"</li>
+            <li><strong>"target"</strong> = Usado na TAG "a" para abrir o conteúdo do link em uma nova aba (usando a função "_blank")</li>
+        </ol>
+        <h4><strong>Bibliografia:</strong></h4> 
+        <p><i>font</i> <a href="https://slideplayer.com.br/slide/1626057/">Slide Player</a></p>
+        <p><i>del</i> <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/del">Mozilla</a></p>
+        <p><i>abbr</i> <a href="https://ehgomes.com.br/html/tags-html-guia-completo-para-iniciantes/#:~:text=A%20tag%20indica%20uma,exibido%20como%20elemento%20de%20linha.">Ehgomes</a></p>
+    </body>
+</html>
